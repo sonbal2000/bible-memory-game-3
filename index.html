@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>세인기독학교 성경 암송</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Importing 'Jua' font for a friendly, cute Korean aesthetic -->
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Jua', 'sans-serif'],
+            },
+            colors: {
+              purple: {
+                50: '#faf5ff',
+                100: '#f3e8ff', // Light purple background requested
+                200: '#e9d5ff',
+                300: '#d8b4fe',
+                400: '#c084fc',
+                500: '#a855f7',
+                600: '#9333ea',
+                800: '#6b21a8',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Jua', sans-serif;
+      }
+      /* Custom transition for word hiding */
+      .word-transition {
+        transition: all 0.3s ease-in-out;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "canvas-confetti": "https://aistudiocdn.com/canvas-confetti@^1.9.4"
+  }
+}
+</script>
+</head>
+  <body class="bg-purple-100 min-h-screen text-gray-800">
+    <div id="root"></div>
+  </body>
+</html>
